@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Antony Osumba – Developer, Graphic Designer and Network Specialist</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@500;800&family=Newsreader:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#eef1f6; --ink:#14213d; --muted:#56627f; --line:#c9d2e3; --accent:#2b4eff; --accent-ink:#ffffff;
+  --display:"Bricolage Grotesque","Helvetica Neue",Arial,sans-serif;
+  --body:"Newsreader",Georgia,"Times New Roman",serif;
+  box-sizing:border-box;
+  padding-top:env(safe-area-inset-top,0px);
+  padding-bottom:env(safe-area-inset-bottom,0px);
+  color-scheme:light;
+}
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme="light"]){--bg:#0f1730;--ink:#e8ecf8;--muted:#9aa6c6;--line:#2a375c;--accent:#7f95ff;--accent-ink:#0f1730;color-scheme:dark}
+}
+:root[data-theme="dark"]{--bg:#0f1730;--ink:#e8ecf8;--muted:#9aa6c6;--line:#2a375c;--accent:#7f95ff;--accent-ink:#0f1730;color-scheme:dark}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+*,*::before,*::after{box-sizing:inherit}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--body);font-size:1.15rem;line-height:1.6}
+main{max-width:56rem;margin:0 auto;padding:clamp(2rem,6vw,5rem) clamp(1.25rem,5vw,3rem)}
+a{color:inherit}
+a:focus-visible{outline:3px solid var(--accent);outline-offset:3px;border-radius:2px}
+h1,h2,h3{font-family:var(--display);margin:0;line-height:1.05;letter-spacing:-.02em}
+h1{font-weight:800;font-size:clamp(3.2rem,12vw,8rem);letter-spacing:-.04em}
+h2{font-weight:500;font-size:1.4rem;color:var(--muted);letter-spacing:0}
+.lead{max-width:34rem;font-size:1.35rem;margin:1.5rem 0 0}
+.now{display:inline-flex;align-items:center;gap:.6rem;margin-top:2rem;padding:.45rem .9rem;border:1px solid var(--line);border-radius:999px;font-size:1rem;color:var(--muted)}
+.dot{width:.6rem;height:.6rem;border-radius:50%;background:var(--accent);animation:pulse 2.4s ease-in-out infinite}
+@keyframes pulse{50%{opacity:.25}}
+@media (prefers-reduced-motion:reduce){.dot{animation:none}}
+section{margin-top:clamp(3.5rem,9vw,6rem)}
+.project{display:grid;grid-template-columns:1fr;gap:.4rem;padding:1.6rem 0;border-top:1px solid var(--line)}
+.project:last-child{border-bottom:1px solid var(--line)}
+.project h3{font-weight:800;font-size:1.9rem}
+.project p{margin:.2rem 0;max-width:38rem}
+.stack{color:var(--muted);font-style:italic;font-size:1rem}
+.project a.link{justify-self:start;margin-top:.5rem;font-family:var(--display);font-weight:500;color:var(--accent);text-underline-offset:4px}
+@media (min-width:44rem){.project{grid-template-columns:14rem 1fr;gap:2rem}.project .meta{grid-column:1}.project .body{grid-column:2}}
+.skills{columns:2 14rem;column-gap:3rem;margin:1rem 0 0;padding:0;list-style:none}
+.skills li{padding:.35rem 0;border-bottom:1px solid var(--line);break-inside:avoid}
+.contact a.btn{display:inline-block;margin-top:1.2rem;padding:.8rem 1.5rem;background:var(--accent);color:var(--accent-ink);font-family:var(--display);font-weight:500;text-decoration:none;border-radius:6px}
+.contact a.btn:hover{filter:brightness(1.1)}
+.contact ul{list-style:none;padding:0;margin:1.5rem 0 0;display:flex;flex-wrap:wrap;gap:1.5rem}
+.grp{font-weight:800;font-size:1.3rem;margin-top:2.2rem}
+footer{margin-top:4rem;color:var(--muted);font-size:.95rem}
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <h1>Antony Osumba</h1>
+    <p class="lead">ICT professional with a business information and technology background and two years of hands-on experience. I build websites and web apps, design the graphics that go with them, and set up the networks they run on.</p>
+    <p class="now"><span class="dot" aria-hidden="true"></span>Open to freelance and full-time work</p>
+  </header>
+
+  <section aria-labelledby="work">
+    <h2 id="work">Selected work</h2>
+    <article class="project">
+      <div class="meta"><h3>Farm produce website</h3></div>
+      <div class="body">
+        <p>An online catalogue for a farm selling fresh vegetables. Customers browse the produce and place orders straight through WhatsApp, so there is no checkout to learn.</p>
+        <p class="stack">HTML, CSS, JavaScript, WhatsApp ordering links</p>
+      </div>
+    </article>
+    <article class="project">
+      <div class="meta"><h3>Loan management system</h3></div>
+      <div class="body">
+        <p>A web app for recording loans, tracking repayments and keeping client records in one place, with a clean interface that staff can use without training.</p>
+        <p class="stack">Web app, database, custom styling</p>
+      </div>
+    </article>
+    <article class="project">
+      <div class="meta"><h3>Brand and graphic design</h3></div>
+      <div class="body">
+        <p>Placeholder: describe a logo, poster or social media set you designed, who it was for and what it achieved.</p>
+        <p class="stack">Add your design tools here</p>
+      </div>
+    </article>
+    <article class="project">
+      <div class="meta"><h3>Network setup</h3></div>
+      <div class="body">
+        <p>Placeholder: describe a network you installed or fixed, such as an office, shop or school, and what improved.</p>
+        <p class="stack">Add your equipment and tools here</p>
+      </div>
+    </article>
+  </section>
+
+  <section aria-labelledby="exp">
+    <h2 id="exp">Experience and education</h2>
+    <article class="project">
+      <div class="meta"><h3>ICT Intern</h3></div>
+      <div class="body">
+        <p>PSC. Employed in an ICT role, supporting technology work in the organisation.</p>
+        <p class="stack">Employed</p>
+      </div>
+    </article>
+    <article class="project">
+      <div class="meta"><h3>Volunteer Intern</h3></div>
+      <div class="body">
+        <p>WAMA Training Institute. Hands-on technology work in a training environment.</p>
+        <p class="stack">Volunteer</p>
+      </div>
+    </article>
+    <article class="project">
+      <div class="meta"><h3>Volunteer Intern</h3></div>
+      <div class="body">
+        <p>WAMA Hospital. Hands-on technology work in a hospital setting.</p>
+        <p class="stack">Volunteer</p>
+      </div>
+    </article>
+    <article class="project">
+      <div class="meta"><h3>Education</h3></div>
+      <div class="body">
+        <p>Mount Kenya University. Studied business information and technology, with a focus on technology.</p>
+        <p class="stack">Two years of combined work experience</p>
+      </div>
+    </article>
+  </section>
+
+  <section aria-labelledby="skills">
+    <h2 id="skills">What I work with</h2>
+    <h3 class="grp">Web development</h3>
+    <ul class="skills">
+      <li>HTML, CSS and responsive layout</li>
+      <li>JavaScript</li>
+      <li>Backend and database basics</li>
+      <li>Git and GitHub</li>
+      <li>Payments and messaging integrations</li>
+    </ul>
+    <h3 class="grp">Graphic design</h3>
+    <ul class="skills">
+      <li>Logos and brand identity</li>
+      <li>Posters, flyers and social media graphics</li>
+      <li>Layout and typography</li>
+      <li>Mobile-first interface design</li>
+    </ul>
+    <h3 class="grp">Networking</h3>
+    <ul class="skills">
+      <li>LAN and Wi-Fi setup</li>
+      <li>Router and switch configuration</li>
+      <li>Network security and troubleshooting</li>
+      <li>Cabling and equipment installation</li>
+    </ul>
+  </section>
+
+  <section class="contact" aria-labelledby="contact">
+    <h2 id="contact">Get in touch</h2>
+    <p class="lead">Have a site or app in mind? Tell me what it needs to do and I’ll reply within a day.</p>
+    <a class="btn" href="mailto:osumbantony84@gmail.com">Email me</a>
+    <ul>
+      <li><a href="tel:+254706492971">0706 492 971</a></li>
+      <li><a href="tel:+254729398008">0729 398 008</a></li>
+      <li><a href="https://wa.me/254706492971">WhatsApp</a></li>
+    </ul>
+  </section>
+
+  <footer>© 2026 Antony Osumba. Mombasa, Kenya.</footer>
+</main>
+</body>
+</html>
